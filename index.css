@@ -65,38 +65,25 @@ header nav a {
   border-radius: 10px;
 }
 
-#about h3 {
-  color: white;
-  margin: 20px;
-  padding: 20px;
-  text-align: center;
-}
 .about {
-  display: grid;
-  grid-template-columns: 60% 40%;
   height: auto;
-  width: 80%;
-  height: auto;
-  padding: 2rem;
-}
-
-.about img {
-  height: 100%;
   width: 100%;
-}
-
-.about .about-content {
-  width: 40vw;
-  padding: 10px;
-  background-color: aliceblue;
-  color: black;
-}
-
-.about button {
-  margin: 10px;
-  padding: 10px;
-  font-size: large;
-  font-weight: bold;
-  border-radius: 10px;
+  color: white;
   text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about .row{
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px; 
 }
